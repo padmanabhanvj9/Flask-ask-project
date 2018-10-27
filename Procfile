@@ -1,1 +1,1 @@
-web: python multidialog.py
+worker: python multidialog.py
