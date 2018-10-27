@@ -27,7 +27,8 @@ def calculate_box_volume(length, width, height):
     return statement("The volume of the box is {} cubic meters"
                      .format(box_volume))
 if __name__ == '__main__':
-    app.run(host="192.168.99.1",port=5000)
+   app.run(debug=True)
+    #app.run(host="192.168.99.1",port=5000)
 '''
 @ask.intent("StatsIntent")
 def stats():
