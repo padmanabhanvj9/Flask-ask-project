@@ -1,1 +1,1 @@
-worker: python multidialog.py
+worker: gunicorn multidialog.py
